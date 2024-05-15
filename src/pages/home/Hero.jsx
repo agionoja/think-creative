@@ -1,4 +1,12 @@
 import HeroImage from "../../assets/HeroImage.png"
+import h1 from "../../assets/h1.png"
+import h2 from "../../assets/h2.png"
+import h3 from "../../assets/h3.png"
+import h4 from "../../assets/h4.png"
+import h5 from "../../assets/h5.png"
+import h6 from "../../assets/h6.png"
+import h7 from "../../assets/h7.png"
+import h8 from "../../assets/h8.png"
 
 const Hero = () =>{
   return (
@@ -14,9 +22,17 @@ const Hero = () =>{
         Think Creative Hub.</p>
         <button className="bg-black text-white py-3 px-5 rounded-3xl my-[50px]">Get Started</button>
       </div>
-        <div className=" hidden md:block md:w-[100%] lg:h-[100%]">
-            <img src={HeroImage} className="h-[100%] w-[100%]" alt="" />
-        </div>
+
+      <div className="hero-grid">
+        <div><img src={h1} alt="" /></div>
+        <div><img src={h2} alt="" /></div>
+        <div><img src={h3} alt="" /></div>
+        <div><img src={h4} alt="" /></div>
+        <div><img src={h5} alt="" /></div>
+        <div><img src={h6} alt="" /></div>
+        <div><img src={h7} alt="" /></div>
+        <div><img src={h8} alt="" /></div>
+      </div>
     </div>
   )
 }

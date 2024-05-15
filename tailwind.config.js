@@ -10,7 +10,7 @@ export default {
         Herobg: "#F2F0EB",
         Redtext: "#FF492C",
         Yellowtext: "#DDE041",
-        
+        Orange: "#EB664E",
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
