@@ -9,7 +9,7 @@ const routes = [
     element: <RootLayout />,
     children: [
       {
-        indent: true,
+        index: true,
         element: <HomePage />,
       },
       {
