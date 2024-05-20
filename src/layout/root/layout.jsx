@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 const RootLayout = () => {
   return (
     <div>
-      <div className="text-x5l uppercase"></div>
+      <div className="mx-auto max-w-screen-2xl"></div>
       <Outlet />
     </div>
   );
