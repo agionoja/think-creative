@@ -2,11 +2,13 @@ import RootLayout from "@/layout/root/layout.jsx";
 import HomePage from "@/pages/home/page.jsx";
 import AboutPage from "@/pages/about/page.jsx";
 import ServicesPage from "@/pages/services/page.jsx";
+import layoutAction from "@/layout/root/action.js";
 
 const routes = [
   {
     path: "/",
     element: <RootLayout />,
+    action: layoutAction,
     children: [
       {
         index: true,

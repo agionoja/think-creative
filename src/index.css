@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hero-grid{
+    width: 100%;
+    display: grid;
+    column-gap: 12px;
+    row-gap: 12px;
+    grid-template-areas: 
+    "a b"
+    "a d"
+    "c d"
+    "c d"
+    "e f"
+    "e f"
+    "g f"
+    "g h";
+    
+}
+
+.hero-grid div img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-grid div:nth-child(1){
+    grid-area: a;
+}
+
+.hero-grid div:nth-child(2){
+    grid-area: b;
+}
+
+.hero-grid div:nth-child(3){
+    grid-area: c;
+}
+
+.hero-grid div:nth-child(4){
+    grid-area: d;
+}
+
+.hero-grid div:nth-child(5){
+    grid-area: e;
+}
+
+.hero-grid div:nth-child(6){
+    grid-area: f;
+}
+
+.hero-grid div:nth-child(7){
+    grid-area: g;
+}
+
+.hero-grid div:nth-child(8){
+    grid-area: h;
+}
+
+
+.grid-container{
+    display: grid;
+    gap: 16px;
+    padding: 16px 16px 0 16px;
+    border-radius: 20px;
+    background-color: #EB664E;
+    grid-template-areas: 
+    "a b ."
+    "c d e"
+    ". f g";
+}
+
+.grid-container div:first-child{
+    grid-area: a;
+}
+
+.grid-container div:nth-child(2){
+    grid-area: b;
+}
+
+.grid-container div:nth-child(3){
+    grid-area: c;
+}
+
+.grid-container div:nth-child(4){
+    grid-area: d;
+}
+
+.grid-container div:nth-child(5){
+    grid-area: e;
+}
+
+.grid-container div:nth-child(6){
+    grid-area: f;
+}
+
+.grid-container div:nth-child(7){
+    grid-area: g;
+}
+
+@layer components{
+    .form-input {
+        @apply bg-light-black border-1 border-white text-white outline-none p-4
+    }
+}
