@@ -3,7 +3,7 @@ import facebookIcon from "@/assets/facebook.svg";
 import instagramIcon from "@/assets/instagram.svg";
 import linkedInIcon from "@/assets/linkedIn.svg";
 
-import ContactForm from "@/components/ContactForm.jsx";
+import ContactForm from "@/layout/root/components/ContactForm.jsx";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
