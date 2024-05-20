@@ -97,3 +97,9 @@
 .grid-container div:nth-child(7){
     grid-area: g;
 }
+
+@layer components{
+    .form-input {
+        @apply bg-light-black border-1 border-white text-white outline-none p-4
+    }
+}
