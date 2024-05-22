@@ -19,6 +19,7 @@ export default {
         Yellowtext: "#DDE041",
         Orange: "#EB664E",
         "light-black": "#1E1E1E",
+        offwhite: "#F2F0EB"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
