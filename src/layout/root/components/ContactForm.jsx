@@ -6,7 +6,7 @@ const ContactForm = () => {
   const [text, setText] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     setEmail("");
     setText("");
   };
