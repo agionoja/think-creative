@@ -9,7 +9,7 @@ const Vision = () => {
         >
           Our Vision
         </h3>
-        <p className={"flex flex-col gap-4 text-center"}>
+        <p className={"flex flex-col gap-4 text-center text-white"}>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor sed
             vitae posuere lectus sit tempus dui. Purus diam elit vitae
