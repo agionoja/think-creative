@@ -98,8 +98,18 @@
     grid-area: g;
 }
 
+
 @layer components{
     .form-input {
         @apply bg-light-black border-1 border-white text-white outline-none p-4
     }
+
+    .btn{
+        @apply  w-fit rounded-lg bg-black px-5 py-2.5 lg:px-7  lg:py-4
+    }
+
+    .card{
+        @apply mx-auto flex flex-col gap-4 rounded-2xl p-4 lg:gap-10 lg:px-12 lg:py-16
+    }
 }
+

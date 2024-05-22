@@ -6,7 +6,7 @@ const ContactForm = () => {
   const [text, setText] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     setEmail("");
     setText("");
   };
@@ -33,6 +33,9 @@ const ContactForm = () => {
         name="message"
         id="guest-message"
         className={"form-input"}
+        placeholder={"Message"}
+        minLength={20}
+        maxLength={200}
         value={text}
         onChange={(e) => setText(e.target.value)}
       />

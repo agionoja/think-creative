@@ -24,6 +24,10 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        "about-hero":
+          "linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6)), url('/src/assets/about-hero.png')",
+      },
     },
   },
   plugins: [],
