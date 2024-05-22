@@ -14,7 +14,7 @@ const MainHeader = () => {
         <img src={logo} alt="" />
       </Link>
       <nav className={"font-semibold"}>
-        <ul className={"flex gap-10"}>
+        <ul className={"flex gap-5 lg:gap-10"}>
           <li>
             <NavLink className={className} to={"/"}>
               Explore
