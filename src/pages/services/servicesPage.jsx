@@ -1,4 +1,3 @@
-
 import campaignadd from "/src/assets/campaignadd.png"
 import homemeasure from "/src/assets/homemeasure.png"
 import repurpose from   "/src/assets/repurpose.png"
@@ -130,7 +129,7 @@ const ServicesPage = () => {
 
             {/* End of Testimonial layer */}
             
-          </div>);
+          </div>)
 };
 
 export default ServicesPage;
