@@ -22,10 +22,12 @@ const Hero = () => {
           </h1>
         </div>
         <p className={"text-[1rem]"}>
-          The meaning of production in Carlio is the creation, development, and
-          the path to progress, and the starting point to achieve the goals that
-          we all have the Petroforce brand, with over 20 years of experience in
-          the oil and petrochemical industry.
+          Thinkhub's mission is to build a community where young people can
+          express their creativity. Founded in 2024, Thinkhub empowers young
+          creatives in Jos, Nigeria, under the leadership of experienced
+          professionals in digital marketing, content creation, and
+          entrepreneurship. The team is committed to fostering collaboration and
+          providing opportunities for young talents to thrive.
         </p>
         <Link to="/" className={"btn mt-8"}>
           Explore

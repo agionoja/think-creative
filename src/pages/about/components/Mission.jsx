@@ -18,12 +18,10 @@ const Mission = () => {
           Our Mission
         </h3>
         <p className={"text-center"}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor sed
-          vitae posuere lectus sit tempus dui. Purus diam elit vitae scelerisque
-          sem rutrum ut pharetra, a. Venenatis tellus vivamus scelerisque
-          egestas lacus faucibus cursus. Eu leo elementum hendrerit gravida et
-          ultricies at. Ut elementum accumsan ut elit. Egestas sit senectus et
-          blandit. Ut.
+          Thinkhub is a community that is built to bridge the gap between
+          creativity and the society. We aim to build a community where
+          creatives can find expression and experience a convenient and
+          comfortable workspace..
         </p>
       </div>
     </div>
