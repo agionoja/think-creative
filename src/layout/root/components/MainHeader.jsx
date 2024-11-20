@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-black.svg";
+import logo from "@/assets/images/ThinkHub a.png";
 import { Link, NavLink } from "react-router-dom";
 
 const MainHeader = () => {
@@ -7,11 +7,11 @@ const MainHeader = () => {
   return (
     <header
       className={
-        "shadow-header sticky top-0 z-50 flex items-center justify-between bg-white px-4 py-4 lg:px-[120px]"
+        "sticky top-0 z-50 flex items-center justify-between bg-white px-4 py-4 shadow-header lg:px-[120px]"
       }
     >
       <Link to={"/"}>
-        <img src={logo} alt="" />
+        <img width={100} height={100} src={logo} alt="" />
       </Link>
       <nav className={"font-semibold"}>
         <ul className={"flex gap-5 lg:gap-10"}>

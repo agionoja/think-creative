@@ -1,7 +1,7 @@
 const Vision = () => {
   return (
     <div className={"flex flex-col gap-8 px-4 lg:gap-20"}>
-      <div className={"card bg-Yellowtext lg:w-[70%] lg:px-28"}>
+      <div className={"card bg-gray-700 lg:w-[70%] lg:px-28"}>
         <h3
           className={
             "text-center text-2xl font-semibold capitalize text-white lg:text-[5rem]"
@@ -11,20 +11,20 @@ const Vision = () => {
         </h3>
         <p className={"flex flex-col gap-4 text-center text-white"}>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor sed
-            vitae posuere lectus sit tempus dui. Purus diam elit vitae
-            scelerisque sem rutrum ut pharetra, a. Venenatis tellus vivamus
-            scelerisque egestas lacus faucibus cursus. Eu leo elementum
-            hendrerit gravida et ultricies at. Ut elementum accumsan ut elit.
-            Egestas sit senectus et blandit. Ut.
+            Our vision is to cultivate a dynamic and inclusive ecosystem where
+            young voices are amplified through creative expression, fostering a
+            generation of confident innovators and storytellers. Through
+            collaborative workshops, digital platforms, and community events, we
+            aim to break down barriers to creative education and build bridges
+            between emerging talents and established artists.
           </span>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor sed
-            vitae posuere lectus sit tempus dui. Purus diam elit vitae
-            scelerisque sem rutrum ut pharetra, a. Venenatis tellus vivamus
-            scelerisque egestas lacus faucibus cursus. Eu leo elementum
-            hendrerit gravida et ultricies at. Ut elementum accumsan ut elit.
-            Egestas sit senectus et blandit. Ut.
+            We believe in the transformative power of creativity to shape
+            identities, challenge perspectives, and drive positive social
+            change. By nurturing emotional intelligence, critical thinking, and
+            entrepreneurial spirit, we strive to empower young creators to
+            discover their artistic voice and contribute to a more vibrant,
+            compassionate global culture.
           </span>
         </p>
       </div>

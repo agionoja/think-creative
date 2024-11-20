@@ -9,7 +9,7 @@ const Mission = () => {
         <span> Our mission is to redefine</span>
         <span>the creative community.</span>
       </h2>
-      <div className={"card bg-[#CFCCCC] lg:w-3/5"}>
+      <div className={"card bg-gray-400 lg:w-3/5"}>
         <h3
           className={
             "text-center text-2xl font-semibold capitalize lg:text-[5rem]"
