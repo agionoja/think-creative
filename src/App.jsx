@@ -4,7 +4,7 @@ import routes from "@/routes/routes.jsx";
 const router = createBrowserRouter(routes);
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;

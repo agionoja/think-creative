@@ -27,7 +27,7 @@ function Profile({ profile, name, role, className }) {
           alt=""
         />
       </div>
-      <div className=" flex basis-1/2 flex-col items-start justify-center">
+      <div className="flex basis-1/2 flex-col items-start justify-center capitalize">
         <div className={"flex flex-col items-center"}>
           <h2 className="text-center font-bold">{name}</h2>
           <p className=" text-center text-Redtext">{role}</p>
@@ -46,22 +46,34 @@ function Creatives() {
       <Profile
         profile={iyanu_profile}
         name={"Iyanuoluwa Oluborode"}
-        role={"Content Creator"}
+        role={"Creative Director"}
       />
       <Profile
         profile={simon_profile}
         name={"Simon Bello"}
         role={"social media manager"}
       />
-      <Profile profile={profile_1} role={"placeholder"} name={"placeholder"} />
-      <Profile profile={profile_2} role={"placeholder"} name={"placeholder"} />
-      <Profile profile={profile_3} role={"placeholder"} name={"placeholder"} />
-      <Profile profile={profile_4} role={"placeholder"} name={"placeholder"} />
+      <Profile
+        profile={profile_1}
+        role={"Content Writer"}
+        name={"Stephenie Stephen Khobe"}
+      />
+      {/*<Profile profile={profile_2} role={"placeholder"} name={"placeholder"} />*/}
+      <Profile
+        profile={profile_3}
+        role={"Fashion Instructor"}
+        name={"Yargata Dachollom"}
+      />
+      <Profile
+        profile={profile_4}
+        role={"Content Creator"}
+        name={"Isaac Jakes"}
+        className={"mx-auto"}
+      />
       <Profile
         profile={profile_5}
-        role={"placeholder"}
-        name={"placeholder"}
-        className={"mx-auto"}
+        role={"Marketing Intern"}
+        name={"Ben Mark"}
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import logoWhite from "@/assets/logo-white.svg";
+import logoWhite from "@/assets/images/think-white.jpeg";
 import facebookIcon from "@/assets/facebook.svg";
 import instagramIcon from "@/assets/instagram.svg";
 import linkedInIcon from "@/assets/linkedIn.svg";
@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <footer
       className={
-        "bg-light-black rounded-t-4xl flex flex-col gap-8 px-4 py-9 lg:px-[120px]"
+        "flex flex-col gap-8 rounded-t-4xl bg-light-black px-4 py-9 lg:px-[120px]"
       }
     >
       <div className="flex flex-col items-center justify-center gap-12">
-        <img src={logoWhite} alt="" className={"basis-0"} />
+        <img width={100} src={logoWhite} alt="" className={"basis-0"} />
         <ContactForm />
       </div>
       <div className={"h-[1px] w-full bg-white"} />
